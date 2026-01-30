@@ -12,6 +12,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles.css?v=13">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "RiFin",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "iOS",
+      "offers": {
+        "@type": "Offer",
+        "price": "0.00",
+        "priceCurrency": "USD"
+      },
+      "description": "RiFin is a privacy-first personal finance app that tracks expenses, manages subscriptions, and monitors net worth locally on your device.",
+      "featureList": "Expense Tracking, Subscription Manager, Net Worth Dashboard, 100% Cloud-Free",
+      "screenshot": "https://rsolostudio.com/rifin/assets/screen-wealth.png"
+    }
+    </script>
 </head>
 
 <body>
@@ -241,8 +258,28 @@
                             </svg>
                         </div>
                         <h3>The Big Picture of Your Wealth</h3>
-                        <p>Go beyond daily expenses. Track your Net Worth, assets, and liabilities across multiple
-                            currencies in one beautiful dashboard.</p>
+                        <p>RiFin helps you calculate Net Worth by aggregating:
+                        <ul style="margin-top: 12px; margin-bottom: 20px; padding-left: 0; list-style: none;">
+                            <li
+                                style="margin-bottom: 8px; display: flex; align-items: center; gap: 10px; color: var(--color-text-secondary);">
+                                <span
+                                    style="width: 6px; height: 6px; background: var(--color-accent); border-radius: 50%;"></span>
+                                <span><strong>Liquid Assets</strong> (Cash/Bank)</span>
+                            </li>
+                            <li
+                                style="margin-bottom: 8px; display: flex; align-items: center; gap: 10px; color: var(--color-text-secondary);">
+                                <span
+                                    style="width: 6px; height: 6px; background: var(--color-accent); border-radius: 50%;"></span>
+                                <span><strong>Fixed Assets</strong> (Property/Gold)</span>
+                            </li>
+                            <li
+                                style="display: flex; align-items: center; gap: 10px; color: var(--color-text-secondary);">
+                                <span
+                                    style="width: 6px; height: 6px; background: var(--color-accent); border-radius: 50%;"></span>
+                                <span><strong>Liabilities</strong> (EMIs/Loans)</span>
+                            </li>
+                        </ul>
+                        Track these across multiple currencies in one beautiful dashboard.</p>
                         <div class="feature-list">
                             <div class="feature-list-item">
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -371,6 +408,29 @@
                     </div>
                     <h4>Flexible Input</h4>
                     <p>Manual or camera entry</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy & Security FAQ Section -->
+    <section id="privacy-faq" class="privacy-faq"
+        style="padding: var(--section-padding) 0; background: var(--color-background);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Privacy & Security</span>
+                <h2 class="section-title">How RiFin Protects Your Financial Data</h2>
+                <p class="section-subtitle">Common questions about our security model</p>
+            </div>
+            <div class="faq-content" style="max-width: 800px; margin: 0 auto;">
+                <div class="faq-item"
+                    style="background: white; padding: 32px; border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
+                    <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 16px; color: var(--color-text);">Is
+                        RiFin a cloud-based app?</h3>
+                    <p style="color: var(--color-text-secondary); line-height: 1.7;">No, RiFin is a 100% cloud-free
+                        personal finance app. Unlike traditional trackers, all your data is stored locally on your
+                        device. RiFin does not use external servers, ensuring your financial records remain completely
+                        private and under your control.</p>
                 </div>
             </div>
         </div>

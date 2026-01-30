@@ -1,0 +1,12 @@
+# RiFin: Privacy-First Personal Finance Tracker
+
+## Description
+RiFin is a 100% cloud-free personal finance application designed for privacy-conscious users. It allows users to track expenses, manage recurring payments, and monitor their net worth without storing any data on external servers. All financial records are stored locally on the user's device, ensuring complete privacy and control.
+
+## Core Features
+- **Logbook**: Smart entry mode for quick expense tracking and a categorized logbook for detailed financial organization.
+- **Subscription Manager**: Track recurring payments like subscriptions, EMIs, and bills with automated reminders.
+- **Wealth Dashboard**: Monitor Net Worth by aggregating Liquid Assets (Cash/Bank), Fixed Assets (Property/Gold), and Liabilities (EMIs/Loans). Supports multi-currency tracking.
+
+## Zero-Knowledge Architecture
+RiFin operates on a "Zero-Knowledge" architecture, meaning the developers and the application itself have no access to your financial data. There is no cloud sync, no account creation on external servers, and no data harvesting. Your data stays 100% on your device.
